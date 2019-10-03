@@ -1,8 +1,22 @@
 body {
   background-color: lightgrey;
 }
+
+h1,h2{
+  font-family:'sans-serif';
+  padding: 2em 1em;
+}
+p{
+  font-family: serif;
+  padding: 0 1em;
+}
 .stories {
   text-align: center;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+  max-width: 60em;
 }
 .news {
   background-color: white;
@@ -10,6 +24,9 @@ body {
   overflow: hidden;
   max-width: 30em;
   margin: 1em 0;
+  text-align:left;
+  border-radius: 1em;
+  
 }
 .news-lead {
   text-align: center;
